@@ -1,0 +1,34 @@
+
+name: GitHub Actions Demo
+on: [push]
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - run: python3 task1.py
+      - run: python3 task2.py
+      - run: python3 task3.py
+      - run: python3 task4.py
+      - run: python3 task5.py
+      - run: python3 task6.py
+      - run: python3 task7.py
+      - run: python3 task8.py
+      - run: python3 task9.py
+      - run: python3 task10.py
+      - run: python3 task11.py
+      - run: python3 task12.py
+      - run: python3 task13.py || true
+      - run: python3 task14.py
+      - run: python3 task15.py
+      - run: python3 task16.py
+      - run: python3 task17.py
+      - run: python3 task18.py
+      - run: python3 task19.py
+      - run: python3 task20.py
+      - run: python3 task21.py
+      - run: python3 task22.py
+      - run: python3 task23.py
+      - run: python3 task24.py
+      - run: python3 task25.py
